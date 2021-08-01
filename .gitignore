@@ -10,6 +10,8 @@
 /resources/
 /vendor/
 /.ruby-version
+/docs/.jekyll-cache
+/docs/_gh_pages
 
 # Jekyll metadata
 /docs/.jekyll-metadata

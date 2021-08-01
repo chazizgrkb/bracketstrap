@@ -6,7 +6,6 @@ highlighter:      rouge
 permalink:        pretty
 
 # Server
-source:           docs
 destination:      _gh_pages
 host:             0.0.0.0
 port:             9001
@@ -20,11 +19,11 @@ plugins:
   - jekyll-sitemap
 
 # Custom vars
-title:            Bootstrap
-description:      "The world's most popular mobile-first and responsive front-end framework."
+title:            Bracketstrap
+description:      "A continuation of Bootstrap 3"
 current_version:  3.4.1
 docs_version:     3.4
-repo:             https://github.com/twbs/bootstrap
+repo:             https://github.com/squarebracket-gamerappa/bracketstrap
 sass_repo:        https://github.com/twbs/bootstrap-sass
 
 download:
