@@ -305,7 +305,6 @@
 }
 .bs-docs-nav {
   margin-bottom: 0;
-  background-color: #fff;
   border-bottom: 0;
 }
 .bs-docs-nav .bs-nav-b {
@@ -314,7 +313,7 @@
 .bs-docs-nav .navbar-brand,
 .bs-docs-nav .navbar-nav > li > a {
   font-weight: 500;
-  color: #563d7c;
+  color: #b49fd2;
 }
 .bs-docs-nav .navbar-nav > li > a {
   padding-right: 10px;
@@ -323,8 +322,7 @@
 .bs-docs-nav .navbar-nav > li > a:hover,
 .bs-docs-nav .navbar-nav > .active > a,
 .bs-docs-nav .navbar-nav > .active > a:hover {
-  color: #463265;
-  background-color: #f9f9f9;
+  color: #fff;
 }
 .bs-docs-nav .navbar-toggle .icon-bar {
   background-color: #563d7c;

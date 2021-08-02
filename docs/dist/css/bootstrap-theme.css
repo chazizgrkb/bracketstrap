@@ -8,7 +8,8 @@
 .btn-success,
 .btn-info,
 .btn-warning,
-.btn-danger {
+.btn-danger,
+.btn-inverse {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -19,12 +20,14 @@
 .btn-info:active,
 .btn-warning:active,
 .btn-danger:active,
+.btn-inverse:active,
 .btn-default.active,
 .btn-primary.active,
 .btn-success.active,
 .btn-info.active,
 .btn-warning.active,
-.btn-danger.active {
+.btn-danger.active,
+.btn-inverse.active {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
@@ -34,18 +37,21 @@
 .btn-info.disabled,
 .btn-warning.disabled,
 .btn-danger.disabled,
+.btn-inverse.disabled,
 .btn-default[disabled],
 .btn-primary[disabled],
 .btn-success[disabled],
 .btn-info[disabled],
 .btn-warning[disabled],
 .btn-danger[disabled],
+.btn-inverse[disabled],
 fieldset[disabled] .btn-default,
 fieldset[disabled] .btn-primary,
 fieldset[disabled] .btn-success,
 fieldset[disabled] .btn-info,
 fieldset[disabled] .btn-warning,
-fieldset[disabled] .btn-danger {
+fieldset[disabled] .btn-danger,
+fieldset[disabled] .btn-inverse {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -54,7 +60,8 @@ fieldset[disabled] .btn-danger {
 .btn-success .badge,
 .btn-info .badge,
 .btn-warning .badge,
-.btn-danger .badge {
+.btn-danger .badge,
+.btn-inverse .badge {
   text-shadow: none;
 }
 .btn:active,
@@ -307,6 +314,47 @@ fieldset[disabled] .btn-danger:active,
 .btn-danger[disabled].active,
 fieldset[disabled] .btn-danger.active {
   background-color: #c12e2a;
+  background-image: none;
+}
+.btn-inverse {
+  background-image: -webkit-linear-gradient(top, #333333 0%, #141414 100%);
+  background-image: -o-linear-gradient(top, #333333 0%, #141414 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#141414));
+  background-image: linear-gradient(to bottom, #333333 0%, #141414 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff333333', endColorstr='#ff141414', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #0f0f0f;
+}
+.btn-inverse:hover,
+.btn-inverse:focus {
+  background-color: #141414;
+  background-position: 0 -15px;
+}
+.btn-inverse:active,
+.btn-inverse.active {
+  background-color: #141414;
+  border-color: #0f0f0f;
+}
+.btn-inverse.disabled,
+.btn-inverse[disabled],
+fieldset[disabled] .btn-inverse,
+.btn-inverse.disabled:hover,
+.btn-inverse[disabled]:hover,
+fieldset[disabled] .btn-inverse:hover,
+.btn-inverse.disabled:focus,
+.btn-inverse[disabled]:focus,
+fieldset[disabled] .btn-inverse:focus,
+.btn-inverse.disabled.focus,
+.btn-inverse[disabled].focus,
+fieldset[disabled] .btn-inverse.focus,
+.btn-inverse.disabled:active,
+.btn-inverse[disabled]:active,
+fieldset[disabled] .btn-inverse:active,
+.btn-inverse.disabled.active,
+.btn-inverse[disabled].active,
+fieldset[disabled] .btn-inverse.active {
+  background-color: #141414;
   background-image: none;
 }
 .thumbnail,

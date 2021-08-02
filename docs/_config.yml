@@ -21,7 +21,7 @@ plugins:
 # Custom vars
 title:            Bracketstrap
 description:      "A continuation of Bootstrap 3"
-current_version:  3.4.1
+current_version:  3.4.2
 docs_version:     3.4
 repo:             https://github.com/squarebracket-gamerappa/bracketstrap
 sass_repo:        https://github.com/twbs/bootstrap-sass
