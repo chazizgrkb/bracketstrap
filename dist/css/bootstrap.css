@@ -1396,7 +1396,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Liberation Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
@@ -3892,6 +3892,41 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 .btn-danger .badge {
   color: #d9534f;
+  background-color: #fff;
+}
+
+.btn-inverse {
+  color: #fff;
+  background-color: #333333;
+  border-color: #262626;
+}
+.btn-inverse:focus, .btn-inverse.focus {
+  color: #fff;
+  background-color: #1a1a1a;
+  border-color: black;
+}
+.btn-inverse:hover {
+  color: #fff;
+  background-color: #1a1a1a;
+  border-color: #080808;
+}
+.btn-inverse:active, .btn-inverse.active, .open > .btn-inverse.dropdown-toggle {
+  color: #fff;
+  background-color: #1a1a1a;
+  background-image: none;
+  border-color: #080808;
+}
+.btn-inverse:active:hover, .btn-inverse:active:focus, .btn-inverse:active.focus, .btn-inverse.active:hover, .btn-inverse.active:focus, .btn-inverse.active.focus, .open > .btn-inverse.dropdown-toggle:hover, .open > .btn-inverse.dropdown-toggle:focus, .open > .btn-inverse.dropdown-toggle.focus {
+  color: #fff;
+  background-color: #080808;
+  border-color: black;
+}
+.btn-inverse.disabled:hover, .btn-inverse.disabled:focus, .btn-inverse.disabled.focus, .btn-inverse[disabled]:hover, .btn-inverse[disabled]:focus, .btn-inverse[disabled].focus, fieldset[disabled] .btn-inverse:hover, fieldset[disabled] .btn-inverse:focus, fieldset[disabled] .btn-inverse.focus {
+  background-color: #333333;
+  border-color: #262626;
+}
+.btn-inverse .badge {
+  color: #333333;
   background-color: #fff;
 }
 
@@ -6523,7 +6558,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Liberation Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.428571429;
@@ -6644,7 +6679,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Liberation Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.428571429;
