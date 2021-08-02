@@ -1,0 +1,42 @@
+/*!
+ * Bootstrap Docs (https://getbootstrap.com/)
+ * Copyright 2011-2021 Twitter, Inc.
+ * Copyright 2021 Gamerappa????
+ * Licensed under the Creative Commons Attribution 3.0 Unported License. For
+ * details, see https://creativecommons.org/licenses/by/3.0/.
+ */
+
+// Dependencies
+@import "syntax.scss";
+// ie10 workaround doesn't compile on scss??? not bothering to fix it since no one uses windows 8.0 anymore.
+// @import "ie10-viewport-bug-workaround.scss";
+
+// Core variables and mixins
+@import "../../../scss/bootstrap/_variables.scss";
+@import "../../../scss/bootstrap/_mixins.scss";
+
+// Docs components
+@import "buttons.scss";
+@import "booticon.scss";
+@import "skip-link.scss";
+@import "nav.scss";
+@import "footer.scss";
+@import "masthead.scss";
+@import "page-header.scss";
+@import "ads.scss";
+@import "featurettes.scss";
+@import "featured-sites.scss";
+@import "demos.scss";
+@import "sidebar.scss";
+@import "examples.scss";
+@import "callouts.scss";
+@import "swatches.scss";
+@import "team.scss";
+@import "responsive-tests.scss";
+@import "glyphicons.scss";
+@import "customizer.scss";
+@import "brand.scss";
+@import "clipboard-js.scss";
+@import "anchor.scss";
+@import "algolia.scss";
+@import "misc.scss";
