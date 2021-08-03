@@ -5,6 +5,22 @@ slug: about
 lead: "Learn about the project's history, meet the maintaining teams, and find out how to use the Bootstrap brand."
 ---
 
+<h2 id="team-core">Bracketstrap team</h2>
+<div class="list-group bs-team">
+  {% for member in site.data.new_team %}
+    <div class="list-group-item">
+      <a class="team-member" href="https://github.com/{{ member.user }}">
+        <img src="https://github.com/{{ member.user }}.png?s=64" alt="@{{ member.user }} avatar" width="32" height="32">
+        <strong>{{ member.name }}</strong> <small>@{{ member.user }}</small>
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="bs-callout bs-callout-warning" id="callout-rewrite-about">
+  <h4>Outdated</h4>
+  <p>This will need to be rewritten!</p>
+</div>
 
 <!-- History
 ================================================== -->

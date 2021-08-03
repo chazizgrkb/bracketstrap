@@ -31,7 +31,7 @@
   // When fading in the modal, animate it to slide down
   &.fade .modal-dialog {
     @include translate(0, -25%);
-    @include transition-transform(0.3s ease-out);
+    @include transition-transform(0.3s cubic-bezier(.39,.58,.57,1));
   }
   &.in .modal-dialog { @include translate(0, 0); }
 }

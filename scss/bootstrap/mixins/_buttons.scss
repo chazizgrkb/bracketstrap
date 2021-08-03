@@ -13,6 +13,7 @@
     color: $color;
     background-color: darken($background, 10%);
     border-color: darken($border, 25%);
+    box-shadow: 0 0 0 2px lighten($border, 15%);
   }
   &:hover {
     color: $color;
