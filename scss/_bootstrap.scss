@@ -4,7 +4,7 @@
  * Copyright 2021 Gamerappa???????????????????
  * Licensed under MIT (https://github.com/gr-sb/bracketstrap/blob/master/LICENSE)
  */
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 // Core variables and mixins
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
@@ -12,7 +12,7 @@
 // Reset and dependencies
 @import "bootstrap/normalize";
 @import "bootstrap/print";
-@import "bootstrap/glyphicons";
+//@import "bootstrap/glyphicons";
 
 // Core CSS
 @import "bootstrap/scaffolding";
